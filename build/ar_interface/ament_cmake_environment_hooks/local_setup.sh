@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_interface"}
+: ${AMENT_CURRENT_PREFIX:="/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/install/ar_interface"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

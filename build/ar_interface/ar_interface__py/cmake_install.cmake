@@ -1,8 +1,8 @@
-# Install script for directory: /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/ar_interface__py
+# Install script for directory: /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/ar_interface__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_interface")
+  set(CMAKE_INSTALL_PREFIX "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/install/ar_interface")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

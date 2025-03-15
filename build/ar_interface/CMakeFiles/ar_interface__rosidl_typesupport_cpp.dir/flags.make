@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_CPP_BUILDING_DLL -DROS_PACKAGE_NAME=\"ar_interface\"
 
-CXX_INCLUDES = -I/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_cpp -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c
+CXX_INCLUDES = -I/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_cpp -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c
 
 CXX_FLAGS = -fPIC -Wall -Wextra -Wpedantic -std=gnu++14
 

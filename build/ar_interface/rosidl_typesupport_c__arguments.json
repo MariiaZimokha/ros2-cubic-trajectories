@@ -1,11 +1,11 @@
 {
   "package_name": "ar_interface",
-  "output_dir": "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_typesupport_c/ar_interface",
+  "output_dir": "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_typesupport_c/ar_interface",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_adapter/ar_interface:msg/CubicTrajParams.idl",
-    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_adapter/ar_interface:msg/CubicTrajCoeffs.idl",
-    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_adapter/ar_interface:srv/ComputeCubicTraj.idl"
+    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_adapter/ar_interface:msg/CubicTrajParams.idl",
+    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_adapter/ar_interface:msg/CubicTrajCoeffs.idl",
+    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_adapter/ar_interface:srv/ComputeCubicTraj.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
@@ -14,8 +14,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_adapter/ar_interface/msg/CubicTrajParams.idl",
-    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_adapter/ar_interface/msg/CubicTrajCoeffs.idl",
-    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_adapter/ar_interface/srv/ComputeCubicTraj.idl"
+    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_adapter/ar_interface/msg/CubicTrajParams.idl",
+    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_adapter/ar_interface/msg/CubicTrajCoeffs.idl",
+    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_adapter/ar_interface/srv/ComputeCubicTraj.idl"
   ]
 }

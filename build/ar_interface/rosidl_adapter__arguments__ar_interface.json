@@ -1,8 +1,8 @@
 {
   "package_name": "ar_interface",
   "non_idl_tuples": [
-    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/src/ar_interface:msg/CubicTrajParams.msg",
-    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/src/ar_interface:msg/CubicTrajCoeffs.msg",
-    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/src/ar_interface:srv/ComputeCubicTraj.srv"
+    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/src/ar_interface:msg/CubicTrajParams.msg",
+    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/src/ar_interface:msg/CubicTrajCoeffs.msg",
+    "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/src/ar_interface:srv/ComputeCubicTraj.srv"
   ]
 }

@@ -1,1 +1,6 @@
-/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/src/ar_interface/msg/CubicTrajCoeffs.msg
+float64 a0
+float64 a1
+float64 a2
+float64 a3
+float64 t0
+float64 tf

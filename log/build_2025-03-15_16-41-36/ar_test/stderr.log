@@ -1,0 +1,5 @@
+  File "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/install/ar_test/lib/python3.10/site-packages/ar_test/plot_cubic_traj.py", line 164
+    nint = int(round(data.tf) * 10  # Number of points
+              ^
+SyntaxError: '(' was never closed
+

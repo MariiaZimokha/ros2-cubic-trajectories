@@ -1,5 +1,6 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
+from launch.actions import ExecuteProcess
 
 def generate_launch_description():
     return LaunchDescription([
@@ -19,6 +20,19 @@ def generate_launch_description():
             package='ar_test',
             executable='plot_cubic_traj',
             output='screen'),
+
+        # rqt_graph
+        ExecuteProcess(
+            cmd=['rqt_graph'],
+            # cmd=['ros2', 'run', 'rqt_graph'],
+            output='screen'
+        ),
+
+        # rqt_plot for graphs
+        ExecuteProcess(
+            cmd=['ros2', 'run', 'rqt_plot', 'rqt_plot', '/position_trajectory/data', '/velocity_trajectory/data', '/acceleration_trajectory/data'],
+            output='screen'
+        ),
     ])
 
 # output='screen' - output is printed in console

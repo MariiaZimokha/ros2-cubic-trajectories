@@ -6,12 +6,16 @@ from ar_interface.srv import ComputeCubicTraj
 class CubicTrajPlanner(Node):
     def __init__(self):
         super().__init__('cubic_traj_planner')
+        
+        # reading fro the topic to get the generated parameters
         self.subscription = self.create_subscription(
             CubicTrajParams,
             'cubic_traj_params',
             self.listener_callback,
             10)
+        # publishing the calculated coefficients
         self.publisher_ = self.create_publisher(CubicTrajCoeffs, 'cubic_traj_coeffs', 10)
+        # instance of the service
         self.client = self.create_client(ComputeCubicTraj, 'compute_cubic_traj')
 
     def listener_callback(self, msg):
@@ -29,18 +33,23 @@ class CubicTrajPlanner(Node):
 
     def future_callback(self, future, request):
         try:
+            print('request --------')
+            print(request)
             response = future.result()
             msg = CubicTrajCoeffs()
             msg.a0 = response.a0
             msg.a1 = response.a1
             msg.a2 = response.a2
             msg.a3 = response.a3
-            msg.t0 = request.t0  # Use t0 from the request
-            msg.tf = request.tf  # Use tf from the request
+
+            msg.t0 = request.t0
+            msg.tf = request.tf
+
             self.publisher_.publish(msg)
-            self.get_logger().info('Publishing: "%s"' % msg)
+            self.get_logger().info(f'Publishing: {msg}')
+            # self.get_logger().warn(f'request: {request}')
         except Exception as e:
-            self.get_logger().error('Service call failed %r' % (e,))
+            self.get_logger().error(f'Service call failed {e}')
 
 def main(args=None):
     rclpy.init(args=args)

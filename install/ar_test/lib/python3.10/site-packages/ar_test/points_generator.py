@@ -3,22 +3,27 @@ from rclpy.node import Node
 from ar_interface.msg import CubicTrajParams
 import random
 
+# the node generates the random values for initial and final posions and velocities
 class PointsGenerator(Node):
     def __init__(self):
         super().__init__('points_generator')
+
         # creating a publisher - message Type, topic name, time
         self.publisher_ = self.create_publisher(CubicTrajParams, 'cubic_traj_params', 10)
-        # calling a callback function every 10 seconds
+        
+        # calling a callback function (points generation) every 10 seconds
         self.timer = self.create_timer(10.0, self.timer_callback)
 
     def timer_callback(self):
         # instances of interface CubicTrajParams 
         msg = CubicTrajParams()
+
         # randomly generate values - the ranges are given 
         msg.p0 = random.uniform(-10, 10)
         msg.pf = random.uniform(-10, 10)
         msg.v0 = random.uniform(-10, 10)
         msg.vf = random.uniform(-10, 10)
+        
         # time
         msg.t0 = 0.0
         dt = random.uniform(4, 8)
@@ -26,7 +31,7 @@ class PointsGenerator(Node):
 
         # publishing the message to the topic
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg)
+        self.get_logger().info(f'Publishing: {msg}')
 
 def main(args=None):
     rclpy.init(args=args)

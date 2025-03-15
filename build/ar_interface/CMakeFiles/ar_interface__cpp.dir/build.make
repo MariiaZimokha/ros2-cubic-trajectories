@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/src/ar_interface
+CMAKE_SOURCE_DIR = /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/src/ar_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface
+CMAKE_BINARY_DIR = /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface
 
 # Utility rule file for ar_interface__cpp.
 
@@ -101,8 +101,8 @@ rosidl_generator_cpp/ar_interface/msg/cubic_traj_params.hpp: /opt/ros/humble/sha
 rosidl_generator_cpp/ar_interface/msg/cubic_traj_params.hpp: rosidl_adapter/ar_interface/msg/CubicTrajParams.idl
 rosidl_generator_cpp/ar_interface/msg/cubic_traj_params.hpp: rosidl_adapter/ar_interface/msg/CubicTrajCoeffs.idl
 rosidl_generator_cpp/ar_interface/msg/cubic_traj_params.hpp: rosidl_adapter/ar_interface/srv/ComputeCubicTraj.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/home/test/.pyenv/shims/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/home/test/.pyenv/shims/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__builder.hpp: rosidl_generator_cpp/ar_interface/msg/cubic_traj_params.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__builder.hpp
@@ -174,6 +174,6 @@ CMakeFiles/ar_interface__cpp.dir/clean:
 .PHONY : CMakeFiles/ar_interface__cpp.dir/clean
 
 CMakeFiles/ar_interface__cpp.dir/depend:
-	cd /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/src/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/src/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/CMakeFiles/ar_interface__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/src/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/src/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/CMakeFiles/ar_interface__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ar_interface__cpp.dir/depend
 

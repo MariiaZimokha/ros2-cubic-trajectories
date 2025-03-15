@@ -4,7 +4,7 @@
   <name>ar_test</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="test@todo.todo">test</maintainer>
+  <maintainer email="m.zimokha@se24.qmul.ac.uk">Mariia Zimokha</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>

@@ -1,1 +1,1 @@
-/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/ament_cmake_environment_hooks/library_path.dsv
+prepend-non-duplicate;LD_LIBRARY_PATH;lib

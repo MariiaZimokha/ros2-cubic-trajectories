@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/src/ar_interface
+CMAKE_SOURCE_DIR = /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/src/ar_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface
+CMAKE_BINARY_DIR = /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ar_interface__rosidl_generator_py.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/ar_interface__rosidl_generator_py.dir/flags.make
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o: CMakeFiles/ar_interface__rosidl_generator_py.dir/flags.make
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o: rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o: CMakeFiles/ar_interface__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o -MF CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o.d -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o -c /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o -MF CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o.d -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o -c /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c
 
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c > CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c > CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.i
 
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.s
 
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o: CMakeFiles/ar_interface__rosidl_generator_py.dir/flags.make
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o: rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o: CMakeFiles/ar_interface__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o -MF CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o.d -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o -c /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o -MF CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o.d -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o -c /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c
 
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c > CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c > CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.i
 
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.s
 
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o: CMakeFiles/ar_interface__rosidl_generator_py.dir/flags.make
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o: rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o: CMakeFiles/ar_interface__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o -MF CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o.d -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o -c /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o -MF CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o.d -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o -c /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c
 
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c > CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c > CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.i
 
 CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c -o CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.s
 
 # Object files for target ar_interface__rosidl_generator_py
 ar_interface__rosidl_generator_py_OBJECTS = \
@@ -130,7 +130,7 @@ rosidl_generator_py/ar_interface/libar_interface__rosidl_generator_py.so: libar_
 rosidl_generator_py/ar_interface/libar_interface__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/ar_interface/libar_interface__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/ar_interface/libar_interface__rosidl_generator_py.so: CMakeFiles/ar_interface__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/ar_interface/libar_interface__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/ar_interface/libar_interface__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ar_interface__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +142,6 @@ CMakeFiles/ar_interface__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/ar_interface__rosidl_generator_py.dir/clean
 
 CMakeFiles/ar_interface__rosidl_generator_py.dir/depend:
-	cd /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/src/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/src/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/CMakeFiles/ar_interface__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/src/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/src/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/ros2-cubic-trajectories/build/ar_interface/CMakeFiles/ar_interface__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ar_interface__rosidl_generator_py.dir/depend
 
