@@ -1,0 +1,29 @@
+[2.333s] Invoking command in '/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_test': PYTHONPATH=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/lib/python3.10/site-packages:/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_test/build --no-deps symlink_data
+[3.389s] running develop
+[4.761s] running egg_info
+[4.761s] creating ar_test.egg-info
+[4.762s] writing ar_test.egg-info/PKG-INFO
+[4.763s] writing dependency_links to ar_test.egg-info/dependency_links.txt
+[4.764s] writing entry points to ar_test.egg-info/entry_points.txt
+[4.765s] writing requirements to ar_test.egg-info/requires.txt
+[4.765s] writing top-level names to ar_test.egg-info/top_level.txt
+[4.765s] writing manifest file 'ar_test.egg-info/SOURCES.txt'
+[4.782s] reading manifest file 'ar_test.egg-info/SOURCES.txt'
+[4.797s] writing manifest file 'ar_test.egg-info/SOURCES.txt'
+[4.807s] running build_ext
+[4.808s] Creating /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/lib/python3.10/site-packages/ar-test.egg-link (link to .)
+[4.809s] Installing compute_cubic_coeffs script to /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/lib/ar_test
+[4.810s] Installing cubic_traj_planner script to /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/lib/ar_test
+[4.811s] Installing plot_cubic_traj script to /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/lib/ar_test
+[4.812s] Installing points_generator script to /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/lib/ar_test
+[4.813s] 
+[4.813s] Installed /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_test
+[4.814s] running symlink_data
+[4.814s] creating /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/share/ament_index
+[4.815s] creating /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/share/ament_index/resource_index
+[4.815s] creating /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/share/ament_index/resource_index/packages
+[4.816s] symbolically linking /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_test/resource/ar_test -> /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/share/ament_index/resource_index/packages
+[4.816s] symbolically linking /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_test/package.xml -> /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/share/ar_test
+[4.817s] creating /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/share/ar_test/launch
+[4.817s] symbolically linking /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_test/launch/cubic_traj_gen.launch.py -> /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/share/ar_test/launch
+[4.830s] Invoked command in '/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_test' returned '0': PYTHONPATH=/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_test/lib/python3.10/site-packages:/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/install/ar_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_test/build --no-deps symlink_data

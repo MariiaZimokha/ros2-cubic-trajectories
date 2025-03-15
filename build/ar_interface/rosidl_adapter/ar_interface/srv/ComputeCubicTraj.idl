@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ar_interface/srv/ComputeCubicTraj.srv
+// generated code does not contain a copyright notice
+
+
+module ar_interface {
+  module srv {
+    struct ComputeCubicTraj_Request {
+      double p0;
+
+      double pf;
+
+      double v0;
+
+      double vf;
+
+      double t0;
+
+      double tf;
+    };
+    struct ComputeCubicTraj_Response {
+      double a0;
+
+      double a1;
+
+      double a2;
+
+      double a3;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/mnt/hgfs/Uni/Uni/Term2/EMS728P_Advance_Robotic_Systems/cw/build/ar_interface/rosidl_generator_py/ar_interface/ar_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "ar_interface__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.10/site-packages/ar_interface")
