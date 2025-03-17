@@ -1,4 +1,3 @@
-# ros2-cubic-trajectories
 
 **Code developed by Mariia Zimokha**  
 **Student ID:** 240129639
