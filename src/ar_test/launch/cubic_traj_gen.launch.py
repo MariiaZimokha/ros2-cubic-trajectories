@@ -24,7 +24,6 @@ def generate_launch_description():
         # rqt_graph
         ExecuteProcess(
             cmd=['rqt_graph'],
-            # cmd=['ros2', 'run', 'rqt_graph'],
             output='screen'
         ),
 
@@ -35,4 +34,3 @@ def generate_launch_description():
         ),
     ])
 
-# output='screen' - output is printed in console
