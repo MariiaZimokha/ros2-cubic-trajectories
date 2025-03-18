@@ -3,8 +3,14 @@ from rclpy.node import Node
 from ar_interface.msg import CubicTrajParams
 import random
 
-# the node generates the random values for initial and final posions and velocities
+
 class PointsGenerator(Node):
+    """
+    The class generates the random values:
+    - initial and final posions
+    - initial and final velocities
+    - initial and final time
+    """
     def __init__(self):
         super().__init__('points_generator')
 

@@ -4,11 +4,20 @@ from ar_interface.srv import ComputeCubicTraj
 from numpy.linalg import solve
 
 class ComputeCubicCoeffs(Node):
+    """
+    The class computing trajectory coefficients
+    function: p(t) = a0 + a1*t + a2*t^2 + a3*t^3
+    
+    """
     def __init__(self):
         super().__init__('compute_cubic_coeffs')
         self.srv = self.create_service(ComputeCubicTraj, 'compute_cubic_traj', self.compute_cubic_traj_callback)
 
     def compute_cubic_traj_callback(self, request, response):
+        p0 = request.p0
+        pf = request.pf
+        v0 = request.v0
+        vf = request.vf
         t0 = request.t0
         tf = request.tf
 
@@ -24,7 +33,7 @@ class ComputeCubicCoeffs(Node):
             [0, 1, 2*tf, 3*tf**2]  # vf
         ]
 
-        C = [request.p0, request.v0, request.pf, request.vf]
+        C = [p0, v0, pf, vf]
         # M*a = C
         # a = M^-1 * C
 
@@ -41,8 +50,9 @@ class ComputeCubicCoeffs(Node):
 def main(args=None):
     rclpy.init(args=args)
     compute_cubic_coeffs = ComputeCubicCoeffs()
-    
+
     rclpy.spin(compute_cubic_coeffs)
+
     compute_cubic_coeffs.destroy_node()
     rclpy.shutdown()
 

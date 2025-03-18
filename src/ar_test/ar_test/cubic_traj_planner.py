@@ -4,6 +4,12 @@ from ar_interface.msg import CubicTrajParams, CubicTrajCoeffs
 from ar_interface.srv import ComputeCubicTraj
 
 class CubicTrajPlanner(Node):
+    """
+    The class implements:
+     - subscriber to cubic_traj_params (points_generator) topic
+     - Creates and call service ComputeCubicTraj
+     - Publish the coefficients into topic cubic_traj_coeffs
+    """
     def __init__(self):
         super().__init__('cubic_traj_planner')
         
@@ -27,7 +33,7 @@ class CubicTrajPlanner(Node):
         request.t0 = msg.t0
         request.tf = msg.tf
 
-        # Pass the request to the future_callback using a lambda function
+        # pass the request to the future_callback using a lambda function
         future = self.client.call_async(request)
         future.add_done_callback(lambda future: self.future_callback(future, request))
 
